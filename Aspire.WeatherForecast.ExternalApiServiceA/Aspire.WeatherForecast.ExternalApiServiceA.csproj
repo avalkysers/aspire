@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.WeatherForecast.ServiceDefaults\Aspire.WeatherForecast.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Aspire.WeatherForecast.ExternalApiServiceClients\Aspire.WeatherForecast.ExternalApiServiceClients.csproj" />
+  </ItemGroup>
+
+</Project>

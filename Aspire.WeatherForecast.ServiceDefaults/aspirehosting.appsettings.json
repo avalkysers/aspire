@@ -1,0 +1,9 @@
+{
+    "ASPIRE": {
+        "SKIP_SERVICE_DISCOVERY": "false",
+        "SKIP_HEALTH_CHECK": "false",
+        "ADD_SERVICE_DEFAULTS_TO_EXTERNAL_A": "true",
+        "ADD_SERVICE_DEFAULTS_TO_EXTERNAL_B": "false"
+    },
+    "CHAOS_MONKEY_ENABLED": "true"
+}
