@@ -1,5 +1,5 @@
 ## Base architecture
-:::mermaid
+```mermaid
 flowchart
 direction LR
 subgraph wf[Weatherforecast]
@@ -12,4 +12,4 @@ ui-->api
 api-->a
 api-->b
 a-->b
-:::
+```
