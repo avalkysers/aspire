@@ -1,9 +1,8 @@
 ## Base architecture
 ```mermaid
-flowchart
-direction LR
+flowchart LR
 subgraph wf[Weatherforecast]
-    ui[Weatherforecast UI]
+    ui[Weatherforecast UI<br/>webfrontend]
     api[Weatherforecast BE<br/>apiservice]
 end
 a[External API Service A<br/>external-a]
