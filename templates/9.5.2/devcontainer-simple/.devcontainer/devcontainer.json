@@ -1,0 +1,16 @@
+{
+  "name": ".NET Aspire",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:9.0-bookworm",
+  "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "onCreateCommand": "dotnet new install Aspire.ProjectTemplates --force",
+  "postStartCommand": "dotnet dev-certs https --trust",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  }
+}
